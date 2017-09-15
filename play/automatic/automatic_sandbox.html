@@ -120,9 +120,9 @@ var whatever = new DoubleSlider(document.getElementById("slider2"),{
 
 		// Write stats
 		START_SIM = false;
-		document.getElementById("ratio_text_triangles").innerHTML = Math.round(window.RATIO_TRIANGLES*100).toLocaleString();
-		document.getElementById("ratio_text_squares").innerHTML = Math.round(window.RATIO_SQUARES*100).toLocaleString();
-		document.getElementById("empty_text").innerHTML = Math.round(window.EMPTINESS*100).toLocaleString()+"٪";
+		document.getElementById("ratio_text_triangles").innerHTML = Math.round(window.RATIO_TRIANGLES*100).toLocaleString('fa');
+		document.getElementById("ratio_text_squares").innerHTML = Math.round(window.RATIO_SQUARES*100).toLocaleString('fa');
+		document.getElementById("empty_text").innerHTML = Math.round(window.EMPTINESS*100).toLocaleString('fa')+"٪";
 
 	},
 	onLetGo:function(){
