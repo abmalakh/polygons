@@ -354,7 +354,7 @@ window.writeStats = function(){
 	stats_ctx.fillRect(x,y,1,5);
 
 	// Text
-	stats_text.innerHTML = Math.floor(segregation*100)+"%";
+	stats_text.innerHTML = Math.floor(segregation*100).toLocaleString('fa')+"٪";
 	stats_text.style.top = Math.round(y-15)+"px";
 	stats_text.style.left = Math.round(x+35)+"px";
 
