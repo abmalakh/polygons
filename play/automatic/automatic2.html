@@ -60,7 +60,7 @@ var whatever = new DoubleSlider(document.getElementById("slider"),{
 		// Write stats
 		START_SIM = false;
 		window.writeStats();
-		bias_text.innerHTML = Math.round(window.BIAS*100)+"%";
+		bias_text.innerHTML = Math.round(window.BIAS*100).toLocaleString('fa')+"٪";
 
 	}
 });

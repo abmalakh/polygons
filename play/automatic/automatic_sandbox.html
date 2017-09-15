@@ -48,7 +48,7 @@
 			<span class="highlight"><span id="ratio_text_triangles">
 ۴۰
 </span>
-:
+به
 <span id="ratio_text_squares">
 ۴۰
 </span></span>
@@ -96,8 +96,8 @@ var whatever = new DoubleSlider(document.getElementById("slider"),{
 		// Write stats
 		START_SIM = false;
 		window.writeStats();
-		bias_text.innerHTML = Math.round(window.BIAS*100)+"%";
-		nonconform_text.innerHTML = Math.round(window.NONCONFORM*100)+"%";
+		bias_text.innerHTML = Math.round(window.BIAS*100).toLocaleString('fa')+"٪";
+		nonconform_text.innerHTML = Math.round(window.NONCONFORM*100).toLocaleString('fa')+"٪";
 
 	}
 });
