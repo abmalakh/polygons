@@ -2,8 +2,6 @@
 
 
 **[(http://hamed.github.io/polygons) در اینجا بازی کنید:](http://hamed.github.io/polygons)**
-
-**[(http://ncase.me/polygons) نسخه انگلیسی](http://ncase.me/polygons)**
 ---
 
 This playable post is [public domain (CC0)](http://creativecommons.org/publicdomain/zero/1.0).
@@ -18,3 +16,6 @@ Show us how you're using and remixing Parable of the Polygons!
 Tweet us at
 [@vihartvihart](https://twitter.com/vihartvihart) and
 [@ncasenmare](https://twitter.com/ncasenmare).
+
+برگردان فارسی:
+[@allaei](https://twitter.com/allaei).
